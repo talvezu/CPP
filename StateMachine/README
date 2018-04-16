@@ -1,0 +1,16 @@
+Usage
+-----
+
+This simple program designated to demonstate simple state machine with c++11 and up new features:
+std::function
+std::mem_fn
+class enum 
+
+the program has 3 phases (states)
+phase 0 and phase 1 are transition
+phase 2 is a stable state.
+
+
+Compilation
+-----------
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
