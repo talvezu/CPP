@@ -1,0 +1,8 @@
+This program intend to cover the usage of [TCP/UDP] [server/client] [sync/async] 
+using boost library.
+
+This program based on the formal boost documentation.
+boost/asio library based on io_service, which is the main api,
+one passed to a thread the io_service most be run in order to be executed.
+it is wrapping a dedicated scheduler responsible for the sync/async behaviour,
+socket setting socket option binding is not direct and wrapped with UDP or TCP dedicated API's.
