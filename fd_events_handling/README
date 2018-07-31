@@ -1,0 +1,6 @@
+shows usage and conclusion for the difference between select, poll, epoll.
+
+usage:
+./sources/test --method=select
+./sources/test --method=poll
+./sources/test --method=epoll(default)
